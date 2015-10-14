@@ -19,6 +19,8 @@ int main()
 	int A[10];
 	std::srand(std::time(0));
 
+	cout << "hello branch";
+
 	for (int i = 0; i < 10; i++){	
 		A[i] = std::rand() % 100;
 		cout << A[i];
