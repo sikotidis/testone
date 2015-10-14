@@ -20,6 +20,7 @@ int main()
 	std::srand(std::time(0));
 
 	cout << "hello branch";
+	cout << "bullshit";
 
 	for (int i = 0; i < 10; i++){	
 		A[i] = std::rand() % 100;
